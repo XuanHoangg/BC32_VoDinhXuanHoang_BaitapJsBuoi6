@@ -49,6 +49,7 @@ function exercise4() {
     let content = document.getElementById('show4');
     //B2: Tạo variable createDiv = "";
     let createDiv = "";
+    //B3: Kiểm tra chẵn lẻ nếu chẵn thì tạo thẻ div class bg-primary cho background màu xanh, nếu lẻ thì tạo div class bg-danger tạo background đỏ (nối chuỗi)
     for (let i = 1; i <= 10; i++) {
         if (i % 2 === 1) {
             createDiv += "<div class = 'bg-primary'>";
@@ -62,7 +63,6 @@ function exercise4() {
         }
     }
     content.innerHTML = createDiv;
-
 }
 
 //Bài 5
